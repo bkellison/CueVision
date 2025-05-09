@@ -42,12 +42,14 @@ All components communicate through Firebase Realtime Database, allowing real-tim
 
 ### Arduino
 
+- `CueProjectGyroAndBluetooth.ino`: Arduino sketch for the IMU-equipped cue stick
 - `TimeoutTimer.h`: Helper library for timing operations
 
 ### Configuration
 
 - `package.json`: Node.js package dependencies
 - `requirements.txt`: Python package dependencies
+
 
 ## How It Works
 
@@ -89,10 +91,13 @@ This is currently a prototype with the following limitations:
 - Incorporate shot difficulty ratings and learning progression
 
 ## Contributors
-Blake Kellison
-Kenna Vanorny
-Kody Wixom
-Marissa Miller 
+
+- Blake Kellison
+- Kenna Vanorny
+- Kody Wixom
+- Marissa Miller
+
+
 
 ## Acknowledgments
 

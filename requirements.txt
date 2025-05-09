@@ -1,0 +1,5 @@
+firebase
+opencv-python
+inference-sdk
+pillow
+numpy

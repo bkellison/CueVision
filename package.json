@@ -1,0 +1,16 @@
+{
+  "name": "cue-vision",
+  "version": "1.0.0",
+  "description": "Cue Vision is an Augmented Reality Billiards Overlay (ARBO) used as an assistive tool designed to enhance the casual pool-playing experience using real-time sensor data and spatial guidance. Built for the Meta Quest headset using Unity, ARBO overlays trajectory predictions and aiming assistance directly into the player's field of view, helping guide shots with precision. The system leverages an IMU-equipped cue stick and a Raspberry Pi connected to a camera for table state detection, both of which send data to Firebase for centralized real-time communication. Unity retrieves this data and uses it to calculate ideal shot vectors, visualizing how and where to strike the cue ball for a successful pocket. The headset’s onboard IMU further enhances tracking accuracy.",
+  "main": "cue-vision.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^11.6.0",
+    "node-ble": "^1.13.0"
+  }
+}
